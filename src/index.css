@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #7fc5ff;
+  font-family: 'Ubuntu', sans-serif;  
+}
+
+.navbar{
+  height: 80px;
+  display: flex;
+  align-items: center ;
+  justify-content:space-around;
+  background-color: #4cff2f78;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  color: purple;
+}
+
+#getData{
+  height: 40px;
+  width: 130px;
+  background-color: yellow;
+  color: orange;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);  
+  cursor: pointer;
+}
+
+
+#getData:hover{
+  background-color: orange;
+  color: white;
+}
+
+.box{
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+li{
+  display: flex;
+  height: 300px;
+  width: 500px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  padding: 10px;
+  text-align: left;
+  font-weight: 700;
+  color: blue;
+  border: 2px solid purple;
+  margin: 30px 0px;
+}
+
+ img{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 2px solid black ;
+}
+
+.loading{
+font-size: 30px;
+color: white;
+height: 50px;
+width: 100px;
+margin: auto;
+margin-top: 20%;
+font-weight: 700;
+}
